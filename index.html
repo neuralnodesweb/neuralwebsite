@@ -75,7 +75,6 @@
     <script>
     const countdownContainer = document.getElementById("countdown");
 
-    // Set launch date to exactly 4 weeks (28 days) from now
     const launchDate = new Date();
     launchDate.setDate(launchDate.getDate() + 28);
 
@@ -113,8 +112,8 @@
       `;
     }
 
-    updateCountdown(); // Initial call
-    setInterval(updateCountdown, 1000); // Update every second
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
   </script>
 </body>
 </html>
